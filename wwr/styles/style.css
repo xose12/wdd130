@@ -1,4 +1,57 @@
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
+}
+
+nav a{
+    text-align: center;
+}
+
+#hero-msg h1,#hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+}
+
+body{
+    background-color: #fcfbfb;
+}
+
+header{
+    background-color: #3399ff;
+}
+
+nav a:hover{
+    background-color: #ffff00;
+}
+
+.book, .join{
+    background-color: yellowgreen;
+}
+
+.book:hover, .join:hover{
+    background-color: aquamarine;
+}
+
+#background{
+    background-color: antiquewhite;
+}
+
+.msg{
+    background-color: #cccccc;
+}
+
+footer{
+    background-color: #8B4513;
 }
