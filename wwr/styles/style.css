@@ -34,10 +34,12 @@ header{
 
 nav a:hover{
     background-color: #ffff00;
+    color: #ffff00;
+    text-decoration: none;
 }
 
 .book, .join{
-    background-color: yellowgreen;
+    text-decoration: none;
 }
 
 .book:hover, .join:hover{
@@ -52,6 +54,24 @@ nav a:hover{
     background-color: #cccccc;
 }
 
-footer{
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+}
+
+#hero-img{
+    width: 100%;
+}
+footer p a:hover{
     background-color: #8B4513;
+    text-decoration: underline;
+}
+footer a{
+text-decoration: none;
+}
+
+footer p{
+    font-size: 1.2em;
 }
