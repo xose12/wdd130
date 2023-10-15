@@ -1,77 +1,112 @@
-.content{
-    max-width: 1200px;
-    margin: 0 auto;
+@import url('https://fonts.googleapis.com/css?family=YourChosenFont');
+
+body {
+    font-family: 'YourChosenFont', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
-#content{
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-nav a{
+#hero-msg h1, #hero-msg h4 {
+    font-family: 'Rock Salt', 'Bradley Hand', Arial, sans-serif;
     text-align: center;
 }
-
-#hero-msg h1,#hero-msg h4{
-    text-align: center;
+.home-title {
+    font-size: 2em;
 }
 
-.button-box{
-    text-align: center;
+.book, .join {
+    font-size: 18px;
 }
 
-#background{
-    height: 725px;
+.msg p {
+    font-size: 0.8em;
 }
 
-body{
-    background-color: #fcfbfb;
+.msg {
+    background-color: #4b562c;
+    line-height: 1.5em;
+}
+body {
+    background-color: #e7d0d0;
+    font-family: 'YourChosenFont', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
-header{
-    background-color: #3399ff;
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
 }
 
-nav a:hover{
-    background-color: #ffff00;
-    color: #ffff00;
+nav a {
     text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 
-.book, .join{
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 
-.book:hover, .join:hover{
-    background-color: aquamarine;
+.icon {
+    padding-top: 10px;
 }
 
-#background{
-    background-color: antiquewhite;
+.msg {
+    padding: 35px;
 }
 
-.msg{
-    background-color: #cccccc;
+.msg p {
+    padding-bottom: 15px;
 }
 
-.logo{
-    width: 80px;
-}
-.icon{
-    width: 80px;
+footer {
+    padding: 25px 50px;
 }
 
-#hero-img{
-    width: 100%;
+footer .social img {
+    padding-top: 15px;
 }
-footer p a:hover{
-    background-color: #8B4513;
-    text-decoration: underline;
-}
-footer a{
-text-decoration: none;
+.home-title {
+    margin-top: 10px;
 }
 
-footer p{
-    font-size: 1.2em;
+.book, .join {
+    margin-top: 50px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+footer {
+    margin-top: 200px;
+}
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+    /* Replace 'd9c2a3' with your chosen color */
+}
+
+main section img {
+    box-sizing: border-box;
 }
