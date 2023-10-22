@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=YourChosenFont');
 
 body {
-    font-family: 'YourChosenFont', Arial, sans-serif;
+    font-family: '', Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -103,7 +103,7 @@ footer {
 }
 
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 10px solid #57d18a;
     /* Replace 'd9c2a3' with your chosen color */
 }
 
