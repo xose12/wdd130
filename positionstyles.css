@@ -62,6 +62,9 @@
     width: 100px;
     height: 100px;
     background-color: green;
+    float: left;
+    margin-left: -50px;
+    margin-top: -50px;
     grid-area: green2;
 }
 
@@ -69,6 +72,9 @@
     width: 100px;
     height: 100px;
     background-color: gold;
+    float: left;
+    margin-right: -50px;
+    margin-bottom: -50px;
     grid-area: yellow2;
 }
 
