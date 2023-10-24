@@ -72,9 +72,9 @@
     width: 100px;
     height: 100px;
     background-color: gold;
-    float: left;
-    margin-right: -50px;
-    margin-bottom: -50px;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 50px;
     grid-area: yellow2;
 }
 
