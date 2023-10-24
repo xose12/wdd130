@@ -52,6 +52,9 @@
     width: 100px;
     height: 100px;
     background-color: red;
+    float: left;
+    margin-right: -50px;
+    margin-bottom: -50px
     grid-area: red2;
 }
 
