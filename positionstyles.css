@@ -48,29 +48,29 @@
 }
 
 .red2 {
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
     background-color: red;
     grid-area: red2;
 }
 
 .green2 {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: green;
     grid-area: green2;
 }
 
 .yellow2 {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: gold;
     grid-area: yellow2;
 }
 
 .blue2 {
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
     background-color: blue;
     grid-area: blue2;
 }
