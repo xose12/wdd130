@@ -72,28 +72,39 @@
   }
   
  /* Activity 3 styles */ 
-.content3 {
+ .content3 {
     /* This is the parent of the activity 3 boxes. */
-}
-.red3 {
-width: 100px; 
-height: 100px; 
-background-color: red; 
- } 
-.green3 {
-width: 100px; 
-height: 100px; 
-background-color: green;
- } 
-.yellow3 {
-width: 100px; 
-height: 100px; 
-background-color: gold; 
- } 
-.blue3 {
-width: 100px;
-height: 100px; 
-background-color: blue; 
+    display: grid;
+    justify-content: center; /* Center the content horizontally. */
+    align-content: center; /* Center the content vertically. */
+    justify-items: center; /* Center the items horizontally within their cells. */
+    align-items: center; /* Center the items vertically within their cells. */
+  }
+  
+  .red3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  
+  .green3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+  }
+  
+  .yellow3 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+  }
+  
+  .blue3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+  
  } 
  /* Activity 4 styles */ 
 .content4 {
