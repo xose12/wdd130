@@ -124,7 +124,7 @@
 .content4 {
     /* This is the parent of the activity 4 boxes. */
     display: grid; /* Enable CSS Grid */
-    grid-template-columns: repeat(4, 1fr); /* Create four equal columns */
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Create four equal columns */
     justify-items: start; /* Align items to the start of each cell */
     grid-gap: 20px; /* Add a gap between columns */
     height: 400px;
@@ -132,34 +132,34 @@
 
 .red4 {
     background-color: red;
-    width: 200px; /* Increase the width to make it larger */
-    height: 100px; /* Maintain the height */
-    grid-column: 2 / span 2; /* Position in the second and third columns */
+    width: 100%; /* Make it cover the entire cell horizontally */
+    height: 100%; /* Make it cover the entire cell vertically */
+    grid-column: 3 / span 2; /* Position in the third and fourth columns */
     grid-row: 1 / span 1; /* Position in the first row */
 }
 
 .green4 {
     background-color: green;
-    width: 100px; /* Maintain the width */
-    height: 100px;
-    grid-column: 1 / span 1; /* Position in the first column */
+    width: 100%; /* Make it cover the entire cell horizontally */
+    height: 100%; /* Make it cover the entire cell vertically */
+    grid-column: 1 / span 2; /* Position in the first and second columns */
     grid-row: 1 / span 1; /* Position in the first row */
 }
 
-yellow4 {
+.yellow4 {
     background-color: gold;
-    width: 100px; /* Maintain the width */
-    height: 100px;
-    grid-column: 3 / span 1; /* Position in the third column */
-    grid-row: 1 / span 1; /* Position in the first row */
+    width: 100%; /* Make it cover the entire cell horizontally */
+    height: 100%; /* Make it cover the entire cell vertically */
+    grid-column: 1 / span 2; /* Position in the first and second columns */
+    grid-row: 2 / span 1; /* Position in the second row */
 }
 
 blue4 {
     background-color: blue;
-    width: 100px; /* Maintain the width */
-    height: 100px;
-    grid-column: 4 / span 1; /* Position in the fourth column */
-    grid-row: 1 / span 1; /* Position in the first row */
+    width: 100%; /* Make it cover the entire cell horizontally */
+    height: 100%; /* Make it cover the entire cell vertically */
+    grid-column: 3 / span 2; /* Position in the third and fourth columns */
+    grid-row: 2 / span 1; /* Position in the second row */
 }
   
  /* Activity 5 styles */ 
