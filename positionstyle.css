@@ -37,29 +37,40 @@
   }
   
  /* Activity 2 styles */ 
-.content2 {
+ .content2 {
     /* This is the parent of the activity 2 boxes. */
-}
-.red2 {
-width: 100px; 
-height: 100px; 
-background-color: red; 
-} 
-.green2 { 
-width: 100px; 
-height: 100px; 
-background-color: green; 
- } 
-.yellow2 {
-width: 100px; 
-height: 100px; 
-background-color: gold; 
-} 
-.blue2 {
-width: 100px; 
-height: 100px; 
-background-color: blue; 
-} 
+    display: grid;
+    grid-template-columns: repeat(4, 100px); 
+    justify-items: center; /* Center the items horizontally within their grid cells. */
+    align-items: center; /* Center the items vertically within their grid cells. */
+    justify-content: center; /* Center the grid horizontally. */
+    align-content: center; /* Center the grid vertically. */
+  }
+  
+  .red2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  
+  .green2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+  }
+  
+  .yellow2 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+  }
+  
+  .blue2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+  
  /* Activity 3 styles */ 
 .content3 {
     /* This is the parent of the activity 3 boxes. */
