@@ -90,7 +90,7 @@
     /* This is the parent of the activity 3 boxes. */
     display: grid; /* Enable CSS Grid */
     grid-template-columns: 1fr 1fr; /* Define two equal columns using fr unit */
-    grid-template-rows: 1fr auto; /* Define rows to achieve the desired layout */
+    grid-template-rows: 1fr auto 1fr; /* Define three rows for the layout */
     justify-items: center; /* Center the items horizontally */
     align-items: center; /* Center the items vertically */
     gap: 20px; /* Add a gap between columns and rows */
@@ -100,26 +100,28 @@
     width: 100%;
     background-color: red;
     grid-column: 1 / span 2; /* Span two columns */
-    grid-row: 1 / span 2; /* Span two rows */
+    grid-row: 1; /* Place it in the first row */
 }
 
 .green3 {
     width: 200px;
     height: 200px;
     background-color: green;
+    grid-row: 2; /* Place it in the second row */
 }
 
-.yellow3 {
+yellow3 {
     width: 200px;
     height: 200px;
     background-color: gold;
+    grid-row: 2; /* Place it in the second row */
 }
 
 .blue3 {
     width: 100%;
     background-color: blue;
     grid-column: 1 / span 2; /* Span two columns */
-    align-self: end; /* Align to the bottom of the row */
+    grid-row: 3; /* Place it in the third row */
 }
 
  /* Activity 4 styles */ 
