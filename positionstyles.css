@@ -121,34 +121,30 @@
 }
 
  /* Activity 4 styles */ 
- .container4 {
+ .content4 {
+    /* This is the parent of the activity 4 boxes. */
     height: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    gap: 20px;
-  }
-  
-  .box {
-    width: 200px;
-    height: 200px;
-  }
-  
-  .red {
-    background-color: red;
-  }
-  
-  .green {
-    background-color: green;
-  }
-  
-  .yellow {
-    background-color: gold;
-  }
-  
-  .blue {
-    background-color: blue;
-  }
+}
+.red4 {
+width: 100px; 
+height: 100px; 
+background-color: red; 
+ } 
+.green4 {
+width: 100px; 
+height: 100px; 
+background-color: green; 
+} 
+.yellow4 {
+width: 100px; 
+height: 100px; 
+background-color: gold; 
+ } 
+.blue4 {
+width: 100px; 
+height: 100px; 
+background-color: blue; 
+ } 
   
  /* Activity 5 styles */ 
  .content5 {
