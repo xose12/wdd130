@@ -120,31 +120,47 @@
     grid-column: 1 / span 2; /* Span two columns */
 }
 
- /* Activity 4 styles */ 
- .content4 {
+/* Activity 4 styles */
+.content4 {
     /* This is the parent of the activity 4 boxes. */
+    display: grid; /* Enable CSS Grid */
+    grid-template-columns: repeat(4, 100px); /* Create four equal columns of 100px each */
+    justify-items: start; /* Align items to the start of each cell */
+    grid-gap: 20px; /* Add a gap between columns */
     height: 400px;
 }
+
 .red4 {
-width: 100px; 
-height: 100px; 
-background-color: red; 
- } 
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    grid-column: 1 / span 1; /* Position in the first column */
+    grid-row: 1 / span 1; /* Position in the first row */
+}
+
 .green4 {
-width: 100px; 
-height: 100px; 
-background-color: green; 
-} 
-.yellow4 {
-width: 100px; 
-height: 100px; 
-background-color: gold; 
- } 
-.blue4 {
-width: 100px; 
-height: 100px; 
-background-color: blue; 
- } 
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    grid-column: 2 / span 1; /* Position in the second column */
+    grid-row: 1 / span 1; /* Position in the first row */
+}
+
+yellow4 {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    grid-column: 3 / span 1; /* Position in the third column */
+    grid-row: 1 / span 1; /* Position in the first row */
+}
+
+blue4 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    grid-column: 4 / span 1; /* Position in the fourth column */
+    grid-row: 1 / span 1; /* Position in the first row */
+}
   
  /* Activity 5 styles */ 
  .content5 {
