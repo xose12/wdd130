@@ -38,6 +38,10 @@
     /* This is the parent of the activity 2 boxes. */
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
   
   }
   .red2 {
