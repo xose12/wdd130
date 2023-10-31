@@ -48,12 +48,17 @@
     align-items: center; /* Center the items vertically within their grid cells. */
     justify-content: center; /* Center the grid horizontally. */
     align-content: center; /* Center the grid vertically. */
+
   }
   
   .red2 {
     width: 100px;
     height: 100px;
     background-color: red;
+    justify-items: center; /* Center the items horizontally within their grid cells. */
+    align-items: center; /* Center the items vertically within their grid cells. */
+    justify-content: center; /* Center the grid horizontally. */
+    align-content: center; /* Center the grid vertically. */
   }
   
   .green2 {
