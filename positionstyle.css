@@ -6,6 +6,9 @@
     grid-template-columns: 1fr 2fr; /* Define the grid columns as 1 fractional unit and 2 fractional units. You can adjust this to your specific needs. */
     justify-content: center; /* Center the grid horizontally. */
     align-content: center; /* Center the grid vertically. */
+    justify-items: center;
+    align-items: center;
+
   }
   
   .red1 {
