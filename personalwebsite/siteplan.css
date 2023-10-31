@@ -1,129 +1,175 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
-<!DOCTYPE html>
-<html lang="en-us">
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #396E94   ;
+  --secondary-color: #E7C24F ;
+  --accent1-color: #A42212;
+  --accent2-color: white;
 
-<head>
-  <meta charset="utf-8" />
-  <title>Site Plan</title>
-  <link type="text/css" rel="stylesheet" href="styles/site-plan-rafting.css" />
-</head>
+  /* change the values below to your chosen font(s) */
+  --heading-font: "IM Fell French Canon SC";
+  --paragraph-font: Lato, Helvetica, sans-serif;
 
-<body>
-  <header>
-    <h1>[Site name] Site Plan</h1>
-    <h2>[FirstName LastName]</h2>
-    <h2>WDD 130-[section]</h2>
-    <!-- In the header above, add the name of your site, your name and class number. For example if you are in section 3 you would put WDD 130-03 -->
-  </header>
-  <main>
-    <!-- ------------------------Steps 2-5------------------------------ -->
-    <hr />
-    <h2>Overview</h2>
-    <h3>Purpose</h3>
-    <p>[Your purpose here]</p>
-    <!-- change this -->
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #396E94  ;
+  --nav-link-color: #396E94;
+  --nav-background-color: #D4AC0D;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
 
-    <h3>Audience</h3>
-    <p>[Your audience here]</p>
-    <!-- change this -->
 
-    <hr />
-    <h2>Branding</h2>
-    <h3>Website Logo</h3>
-    <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-    <img src="https://byui-wdd.github.io/wdd130/rafting_images/dryoarlogo.png" alt="Logo image" />
-    <hr />
-    <h2>Style Guide</h2>
+/*  Look around below...but DON'T CHANGE ANYTHING! */
 
-    <!-- ------------------------Steps 6-9------------------------------ -->
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+h2 {
+  text-align: center;
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
 
-    <h3>Color Palette</h3>
-    <!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in Canvas then return and replace the color codes below with the hex color codes (the 6 digit numbers that show at the bottom of each color) for the colors you have chosen below.  You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
 
-    <!-- Copy and paste the URL to your finished palette below. Replace the href value that is there with yours. Make sure to paste it into both the href value and the content text of the <a> tag -->
-    <p>Palette URL:</p>
-    <a href="https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c"
-      target="_blank">https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c</a>
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
 
-    <table class="colors">
-      <tr>
-        <th>Primary</th>
-        <th>Secondary</th>
-        <th>Accent 1</th>
-        <th>Accent 2</th>
-      </tr>
-      <!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
-      <tr>
-        <td class="primary">[#396E94]</td>
-        <td class="secondary">[#E7C24F]</td>
-        <td class="accent1">[#A43312]</td>
-        <td class="accent2"></td>
-      </tr>
-    </table>
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
 
-    <!-- ------------------------Steps 10-12------------------------------ -->
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav  {
+  list-style-type: none;
+  display: flex;
 
-    <h3>Typography</h3>
-    <!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Think also about which of your colors above you might use for background and font colors. -->
+}
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
 
-    <h4>
-      Heading Font: [Font Name here]
-      <!-- change this -->
-    </h4>
-    <h4>
-      Paragraph Font: [Font Name here]
-      <!-- change this -->
-    </h4>
-    <h3>Normal paragraph example</h3>
-    <p>
-      The best Whitewater Rafting in Colorado, White Water Rafting Company
-      offers rafting on the Colorado and Roaring Fork Rivers in Glenwood
-      Springs. Since 1974, we have been family owned and operated, rafting the
-      Shoshone section of Glenwood Canyon and beyond.
-    </p>
-    <h3>Colored paragraph example</h3>
-    <p class="colored">
-      Trips vary from mild and great for families, to trips exclusively for
-      physically fit and experienced rafters. No matter what type of river
-      adventures you are seeking, White Water Rafting Company can make it
-      happen for you.
-    </p>
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
 
-    <!-- ------------------------Step 13------------------------------ -->
+.sitemap {
+  display: grid;
+  justify-content: center;
 
-    <h3>Navigation</h3>
-    <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. -->
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Page2</a>
-      <a href="#">Contact Us</a>
-    </nav>
-    <hr />
-    <h2>Site Map</h2>
-    <div class="sitemap">
-      <div class="sm-home">Home</div>
-      <div class="sm-page2">
-        [Page2]
-        <!-- this page will have a name later -->
-      </div>
-      <div class="sm-page3">Contact Us</div>
+  grid-template-columns: repeat(6, 15%);
+  grid-template-rows: 3em 1.5em 1.5em 3em;
+  grid-template-areas: ". . home home . ."
+    ". . . top . ."
+    ". left left right right ."
+    "page2 page2 . . page3 page3";
+}
+.sitemap > div {
 
-      <div class="top">&nbsp;</div>
-      <div class="left">&nbsp;</div>
-      <div class="right">&nbsp;</div>
-    </div>
-    <hr />
-    <h2>Wireframes</h2>
-    <!-- Create an additional wireframe for your site. List it here below the Home page wireframe. -->
+  text-align: center;
 
-    <h3>Home</h3>
+}
+.sm-home {
+  grid-area: home;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page2 {
+  grid-area: page2;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page3 {
+  grid-area: page3;
+  background-color: #ccc;
+  line-height: 3em;
+}
 
-    <img src="https://byui-wdd.github.io/wdd130/rafting_images/wireframe_home.png" alt="home page wireframe" />
+.top {
+  grid-area: top;
+  border-left: 1px solid;
+}
 
-    <h3>[Page 2]</h3>
+.left {
+  grid-area: left;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
 
-    <!-- <img src="#" alt="page 2 wireframe"> -->
-  </main>
-</body>
-
-</html>
+.right {
+  grid-area: right;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
