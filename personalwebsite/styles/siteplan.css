@@ -7,8 +7,8 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #396E94   ;
   --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --accent1-color: #003554;
+  --accent2-color: #00a6fb;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
@@ -55,7 +55,7 @@ hr {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--headline-color-on-color);
+  color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
 }
 header > h1, header > h2 {
@@ -64,7 +64,7 @@ header > h1, header > h2 {
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  color: var(--paragraph-color);
   padding: 1em;
 }
 .colors {
