@@ -209,14 +209,14 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-.treatment-grid h1{
+.about-grid h1{
     text-align: left;
     font-size: 50px;
     color:#003554;
     margin-left:30px;
     font-family:'Arvo';
 }
-.treatment-grid h3{
+.about-grid h3{
     font-family: 'Arvo';
     display: inline-block;
     font-size: 40px;
@@ -225,7 +225,7 @@ nav {
     font-weight: medium;
     margin-bottom: 0ox;
 }
-.treatment-grid p{
+.about-grid p{
     font-size: 30px;
     font-weight: medium;
     display: inline-block;
@@ -237,7 +237,7 @@ nav {
     margin-top: 30px;
     text-align: center;
 }
-.treatment-img{
+.about-img{
     width:48%;
     height:100%;
     display: inline-block;
@@ -248,18 +248,18 @@ nav {
     box-shadow: 10px 10px 10px #618498;
     margin-left: 20px;
 }
-.treatment-img:hover{
+.about-img:hover{
     opacity: 0.6;
     transform: scale(1.1);
 }
-.treatment-grid #background{
+.about-grid #background{
     background-color: #003554;
     height: auto;
     width: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
-.sports-img{
+.contact-img{
     width:48%;
     height:100%;
     display: inline-block;
@@ -270,11 +270,11 @@ nav {
     box-shadow: 10px 10px 10px #618498;
     margin-left: 20px;
 }
-.sports-img:hover{
+.contact-img:hover{
     opacity: 0.6;
     transform: scale(1.1);
 }
-.sports p{
+.Myprofession p{
     color: #ffffff;
     font-size: 1.4em;
     font-family: 'Helvetica';
@@ -282,7 +282,7 @@ nav {
     display: inline-block;
 }
 
-.join{
+.contact{
     background-color: #d9c2a3;
     color: #000000;
     text-decoration: none;
@@ -291,7 +291,7 @@ nav {
     margin-top: 100px;
     border-radius: 5px;
 }
-.join:hover {
+.contact:hover {
     background-color:black ;
     color:#ffffff ;
 }
