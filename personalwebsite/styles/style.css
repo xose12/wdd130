@@ -11,7 +11,7 @@ header {
   justify-self: center;
   align-self: center;
 }
-.logo-img{
+.logo, .icon{
   height:100px;
   width: 100px;
   position: relative;
@@ -313,6 +313,21 @@ nav {
 }
 main section img{
     box-sizing: border-box;
+}
+#background-project{
+    background-color: #003554;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px #618498;
+}
+#background-project a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 25px;
+}
+
+#background-project a:hover{
+    color:#d9c2a3;
 }
 
 .children {
