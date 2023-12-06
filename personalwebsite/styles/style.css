@@ -84,12 +84,12 @@ main section {
     background-color:black ;
     color:#ffffff ;
 }
-.button-box {
+.box {
     text-align: center;
     color: #000000;
     text-decoration: none;
 }
-.child-img{
+img{
     margin-left: 10%;
     margin-top: 70px;
     height: 510px;
@@ -98,11 +98,11 @@ main section {
     box-shadow: 10px 10px 10px #618498;
     transition: transform.5s;
 }
-.child-img:hover{
+img:hover{
     opacity: 0.6;
     transform: scale(1.1);
 }
-.counseling, h1{
+.aboutme, h1{
     text-align: left;
     font-size: 40px;
     color:#003554;
@@ -110,7 +110,7 @@ main section {
     font-family:'Arvo';
     font-size: 50px;
 }
-.counseling, h3{
+.aboutme, h3{
     display: inline-block;
     font-size: 30px;
     text-align:left;
@@ -123,7 +123,7 @@ main section {
     grid-column: 6/10;
     grid-row: 6/7;
 }
-.counseling-img{
+aboutme-img{
     width:48%;
     height:100%;
     display: inline-block;
@@ -133,7 +133,7 @@ main section {
     margin-top: 15px;
     box-shadow: 10px 10px 10px #618498;
 }
-.counseling-img:hover{
+.Abooutme-img:hover{
     opacity: 0.6;
     transform: scale(1.1);
 }
