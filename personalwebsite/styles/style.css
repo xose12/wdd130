@@ -21,11 +21,12 @@ html{
     height: 100%;
 }
 #content {
-    max-width: 1600px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 #hero-img{
     width: 100%;
+    margin-left: 10px;
     box-shadow: 10px 10px 10px #618498;
 }
 main section {
@@ -39,9 +40,14 @@ main section {
     margin-top: 70px;
     margin-bottom: 15px;
 }
+#hero-msg{
+    z-index: 1;
+    margin-top: 55%;
+
+}
 #hero-msg h1 {
     text-align: center;
-    color:#ffffff;
+   color: #003554;
     font-size: 100px;
     margin-top: 200px;
     font-family: 'Arvo';
@@ -49,9 +55,12 @@ main section {
 }
 #hero-msg h4{
     text-align: center;
-    color:#ffffff;
+    color: #003554;
     display: inline-block;
-    text-shadow:2px 2px 8px #000000;
+}
+.home{
+    display:flex;
+    flex-direction: column;
 }
 .home, h2{
     text-align: left;
@@ -330,12 +339,12 @@ main section img{
     color:#d9c2a3;
 }
 
-.contact {
+.children {
     width: 100%;
     box-shadow: 10px 10px 10px #618498;
     margin-top: 70px;
 }
-.contact:hover{
+.children:hover{
     opacity: 0.6;
     transform: scale(1.1);
 }
@@ -424,7 +433,6 @@ form {
 .moveDown {
     margin-top: 3em;
 }
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
