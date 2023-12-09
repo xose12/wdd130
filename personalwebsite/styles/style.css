@@ -330,12 +330,12 @@ main section img{
     color:#d9c2a3;
 }
 
-.children {
+.contact {
     width: 100%;
     box-shadow: 10px 10px 10px #618498;
     margin-top: 70px;
 }
-.children:hover{
+.contact:hover{
     opacity: 0.6;
     transform: scale(1.1);
 }
