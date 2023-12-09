@@ -173,3 +173,11 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.image{
+  width: 50%;
+  padding-left: 25%;
+  margin:10px;
+}
+.logo{
+  width:200px
+}
