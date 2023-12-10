@@ -472,13 +472,8 @@ form {
     color: black;
   }
   
-  button:hover, a:hover {
+
+
+button:hover, a:hover {
     opacity: 0.7;
-  }
-
-
-
-
-
-
-  
+}
