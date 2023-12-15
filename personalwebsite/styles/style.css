@@ -126,7 +126,8 @@ img:hover{
     font-size: 30px;
     font-family: 'Helvetica';
     color:black;
-    font-weight: medium;
+    font-weight: 500;
+    margin-bottom: 0;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -231,12 +232,12 @@ nav {
     font-size: 40px;
     text-align:left;
     color:black;
-    font-weight: medium;
-    margin-bottom: 0ox;
+    font-weight: 500;
+    margin-bottom: 0;
 }
 .about-grid p{
     font-size: 30px;
-    font-weight: medium;
+    font-weight: 500;
     display: inline-block;
     color: #ffffff;
     margin-left: 30px;
